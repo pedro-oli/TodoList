@@ -1,0 +1,19 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #452632;
+$background-color: #E2F7CE;
+$completed-color: #C1709D;
+$active-color: #E8BF56;
+
+* {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+html,
+body,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1533235655492" clover="3.2.0">
+  <project timestamp="1533235655492" name="All files">
+    <metrics statements="56" coveredstatements="56" conditionals="18" coveredconditionals="18" methods="29" coveredmethods="29" elements="103" coveredelements="103" complexity="0" loc="56" ncloc="56" packages="4" files="13" classes="13">
+      <package name="actions">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <file name="index.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\actions\index.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="1" count="12" type="stmt"/>
+          <line num="3" count="106" type="stmt"/>
+          <line num="9" count="12" type="stmt"/>
+          <line num="14" count="12" type="stmt"/>
+          <line num="19" count="12" type="stmt"/>
+          <line num="24" count="12" type="stmt"/>
+        </file>
+      </package>
+      <package name="components">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <file name="App.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\components\App.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+        </file>
+        <file name="Footer.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\components\Footer.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+        <file name="Link.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\components\Link.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="14" count="4" type="stmt"/>
+        </file>
+        <file name="Todo.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\components\Todo.js">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="6" count="7" type="stmt"/>
+          <line num="17" count="4" type="stmt"/>
+        </file>
+        <file name="TodoList.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\components\TodoList.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="9" type="stmt"/>
+          <line num="12" count="4" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="23" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="containers">
+        <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="14" coveredmethods="14"/>
+        <file name="AddTodo.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\containers\AddTodo.js">
+          <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+        </file>
+        <file name="DeleteTodo.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\containers\DeleteTodo.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="5" count="5" type="stmt"/>
+          <line num="6" count="7" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+        <file name="FilterLink.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\containers\FilterLink.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+        <file name="VisibleTodoList.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\containers\VisibleTodoList.js">
+          <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="8" type="cond" truecount="4" falsecount="0"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="20" count="8" type="stmt"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="reducers">
+        <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <file name="index.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\reducers\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="todos.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\reducers\todos.js">
+          <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
+          <line num="1" count="8" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="46" type="cond" truecount="4" falsecount="0"/>
+          <line num="4" count="7" type="stmt"/>
+          <line num="13" count="4" type="stmt"/>
+          <line num="14" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="20" count="4" type="stmt"/>
+          <line num="22" count="31" type="stmt"/>
+        </file>
+        <file name="visibilityFilter.js" path="C:\Users\Pedro Oliveira\Downloads\challenges\challenge 3\src\reducers\visibilityFilter.js">
+          <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+          <line num="3" count="8" type="cond" truecount="1" falsecount="0"/>
+          <line num="4" count="40" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="11" type="stmt"/>
+          <line num="8" count="29" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

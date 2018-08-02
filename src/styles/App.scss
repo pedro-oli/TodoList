@@ -1,0 +1,72 @@
+@import 'reset';
+
+button {
+    border: 1px solid $primary-color;
+    &:hover {
+        filter: opacity(.6);
+    }
+}
+
+h1 {
+    font-weight: bold;
+    user-select: none;
+}
+
+li {
+    display: flex;
+    border-top: 1px solid $primary-color;
+    justify-content: space-between;
+    user-select: none;
+    padding-left: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $primary-color;
+    & .active {
+        background-color: $active-color;
+    }
+    & .completed {
+        background-color: $completed-color;
+    }
+}
+
+.appUI {
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteLink {
+    text-align: center;
+    background-color: white;
+    min-width: 20%;
+    &:hover {
+        background-color: $background-color;
+    }
+}
+
+.todoForm {
+    display: flex;
+    & input {
+        width: 70%;
+    }
+    & button {
+        width: 30%;
+    }
+}
+
+.visibilityFilter {
+    display: flex;
+    justify-content: center;
+    & button {
+        background-color: white;
+        margin-left: 4px;
+    }
+    & .Active {
+        background-color: $active-color;
+    }
+    & .Completed {
+        background-color: $completed-color;
+    }
+}

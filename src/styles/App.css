@@ -1,0 +1,65 @@
+* {
+  font: 100% Helvetica, sans-serif;
+  color: #452632; }
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  background-color: #E2F7CE; }
+
+button {
+  border: 1px solid #452632; }
+  button:hover {
+    filter: opacity(0.6); }
+
+h1 {
+  font-weight: bold;
+  user-select: none; }
+
+li {
+  display: flex;
+  border-top: 1px solid #452632;
+  justify-content: space-between;
+  user-select: none;
+  padding-left: 5px; }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #452632; }
+  ul .active {
+    background-color: #E8BF56; }
+  ul .completed {
+    background-color: #C1709D; }
+
+.appUI {
+  display: flex;
+  flex-direction: column; }
+
+.deleteLink {
+  text-align: center;
+  background-color: white;
+  min-width: 20%; }
+  .deleteLink:hover {
+    background-color: #E2F7CE; }
+
+.todoForm {
+  display: flex; }
+  .todoForm input {
+    width: 70%; }
+  .todoForm button {
+    width: 30%; }
+
+.visibilityFilter {
+  display: flex;
+  justify-content: center; }
+  .visibilityFilter button {
+    background-color: white;
+    margin-left: 4px; }
+  .visibilityFilter .Active {
+    background-color: #E8BF56; }
+  .visibilityFilter .Completed {
+    background-color: #C1709D; }
